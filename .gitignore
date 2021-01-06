@@ -1,6 +1,26 @@
-./public/bundle.js
-node_modules/*
-react/coverage/*
-yarn.lock
-.DS_store
-.bundle
+# OS X
+.DS_Store*
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+
+
+# npm
+**/node_modules
+**/package-lock.json
+*.log
+*.gz
+
+
+# Coveralls
+**/coverage
+
+.env
