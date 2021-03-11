@@ -5,7 +5,7 @@
   },
   "license": "UNLICENSED",
   "private": true,
-  "name": "launch-academy-faq-part-2-express-client",
+  "name": "launchtails-clinic-client",
   "version": "0.0.1",
   "engines": {
     "node": "^14.8"

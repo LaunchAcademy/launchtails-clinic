@@ -6,11 +6,11 @@
     "client"
   ],
   "scripts": {
-    "build:client": "yarn workspace launch-academy-faq-part-2-express-client build",
-    "dev": "yarn workspace launch-academy-faq-part-2-express-server dev",
-    "dev:debug": "yarn workspace launch-academy-faq-part-2-express-server dev:debug",
-    "heroku-postbuild": "yarn workspace launch-academy-faq-part-2-express-client build",
-    "start": "yarn workspace launch-academy-faq-part-2-express-server start"
+    "build:client": "yarn workspace launchtails-clinic-client build",
+    "dev": "yarn workspace launchtails-clinic-server dev",
+    "dev:debug": "yarn workspace launchtails-clinic-server dev:debug",
+    "heroku-postbuild": "yarn workspace launchtails-clinic-client build",
+    "start": "yarn workspace launchtails-clinic-server start"
   },
   "engines": {
     "node": "^14.8"
