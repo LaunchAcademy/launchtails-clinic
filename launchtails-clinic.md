@@ -1,3 +1,5 @@
+### Step 1
+
 ```no-highlight
 As a user
 I want to see a list of drinks
@@ -7,6 +9,10 @@ So I can get a sense of what is keeping people sane
 Acceptance Criteria:
 
 - When a user navigates to the root path (`/`), they should see the drink's title (but not the content) of all the drinks in the application.
+
+
+
+### Step 2
 
 ```no-highlight
 As a user
@@ -18,7 +24,8 @@ Acceptance Criteria:
 
 - Clicking on a drink listed on the index page should direct the user to that drink's show page, at `/drinks/((drink id here))`. For example, if I click on the title of an drink with an id of `4`, I should be taken to `/drinks/4`.
 - Similarly, if I navigate directly to `/drinks/4` in my browser (by typing in the URL), I should be taken to the show page for the drink with an id of `4`
-- On the `/drinks/((drink id here))` page, the user should see the drink's title and the body (and not the title or body of any other drink!).
+- On the `/drinks/((drink id here))` page, the user should see the drink's title and the content (and not the title or content of any other drink!).
+
 
 ### Step 3
 
