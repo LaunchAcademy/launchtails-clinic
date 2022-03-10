@@ -19,14 +19,16 @@ const DrinksIndexContainer = (props) => {
   })
 
   return (
-    <div className="grid-y grid-margin-y grid-padding-y">
-      <div className="cell small-6 large-8">
-        <h1>LaunchTails</h1>
-        <hr />
-        {drinkTiles}
-      </div>
-      <div className="cell small-6 large-4">
-        <DrinkFormContainer addNewDrink={addNewDrink} />
+    <div className="grid-container">
+      <div className="grid-y grid-margin-y grid-padding-y">
+        <div className="cell small-6 large-8">
+          <h1>LaunchTails</h1>
+          <hr />
+          {drinkTiles}
+        </div>
+        <div className="cell small-6 large-4">
+          <DrinkFormContainer addNewDrink={addNewDrink} />
+        </div>
       </div>
     </div>
   )
